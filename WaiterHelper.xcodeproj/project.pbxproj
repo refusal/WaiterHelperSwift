@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2855F562B532961754F315C3 /* Pods_WaiterHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D2F0C43B0AB3C3A58F88FC /* Pods_WaiterHelper.framework */; };
 		5498C5641FFE2D0C00DB1463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498C5631FFE2D0C00DB1463 /* AppDelegate.swift */; };
-		5498C5661FFE2D0C00DB1463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498C5651FFE2D0C00DB1463 /* ViewController.swift */; };
+		5498C5661FFE2D0C00DB1463 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498C5651FFE2D0C00DB1463 /* RootViewController.swift */; };
 		5498C5691FFE2D0C00DB1463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5498C5671FFE2D0C00DB1463 /* Main.storyboard */; };
 		5498C56C1FFE2D0C00DB1463 /* WaiterHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5498C56A1FFE2D0C00DB1463 /* WaiterHelper.xcdatamodeld */; };
 		5498C56E1FFE2D0C00DB1463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5498C56D1FFE2D0C00DB1463 /* Assets.xcassets */; };
 		5498C5711FFE2D0C00DB1463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5498C56F1FFE2D0C00DB1463 /* LaunchScreen.storyboard */; };
+		54A041052014F3B300D5D36E /* TablesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A041042014F3B300D5D36E /* TablesCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25D2F0C43B0AB3C3A58F88FC /* Pods_WaiterHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaiterHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491E066072CE3891CDCF2DDF /* Pods-WaiterHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaiterHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaiterHelper/Pods-WaiterHelper.release.xcconfig"; sourceTree = "<group>"; };
 		5498C5601FFE2D0C00DB1463 /* WaiterHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaiterHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5498C5631FFE2D0C00DB1463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5498C5651FFE2D0C00DB1463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5498C5651FFE2D0C00DB1463 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5498C5681FFE2D0C00DB1463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5498C56B1FFE2D0C00DB1463 /* WaiterHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaiterHelper.xcdatamodel; sourceTree = "<group>"; };
 		5498C56D1FFE2D0C00DB1463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5498C5701FFE2D0C00DB1463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5498C5721FFE2D0C00DB1463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A041042014F3B300D5D36E /* TablesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesCollectionViewController.swift; sourceTree = "<group>"; };
+		84585A3CBBE3C3427C6E57E3 /* Pods-WaiterHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaiterHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaiterHelper/Pods-WaiterHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2855F562B532961754F315C3 /* Pods_WaiterHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545C6E0B2014F36E00797214 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5498C5651FFE2D0C00DB1463 /* RootViewController.swift */,
+				54A041042014F3B300D5D36E /* TablesCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5498C5571FFE2D0B00DB1463 = {
 			isa = PBXGroup;
 			children = (
 				5498C5621FFE2D0C00DB1463 /* WaiterHelper */,
 				5498C5611FFE2D0C00DB1463 /* Products */,
+				A42F57A1D1C4AACCF070F7E5 /* Pods */,
+				D8AB894CF51ABD70116CF217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +74,8 @@
 		5498C5621FFE2D0C00DB1463 /* WaiterHelper */ = {
 			isa = PBXGroup;
 			children = (
+				545C6E0B2014F36E00797214 /* ViewControllers */,
 				5498C5631FFE2D0C00DB1463 /* AppDelegate.swift */,
-				5498C5651FFE2D0C00DB1463 /* ViewController.swift */,
 				5498C5671FFE2D0C00DB1463 /* Main.storyboard */,
 				5498C56D1FFE2D0C00DB1463 /* Assets.xcassets */,
 				5498C56F1FFE2D0C00DB1463 /* LaunchScreen.storyboard */,
@@ -67,6 +85,23 @@
 			path = WaiterHelper;
 			sourceTree = "<group>";
 		};
+		A42F57A1D1C4AACCF070F7E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84585A3CBBE3C3427C6E57E3 /* Pods-WaiterHelper.debug.xcconfig */,
+				491E066072CE3891CDCF2DDF /* Pods-WaiterHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8AB894CF51ABD70116CF217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D2F0C43B0AB3C3A58F88FC /* Pods_WaiterHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5498C5751FFE2D0C00DB1463 /* Build configuration list for PBXNativeTarget "WaiterHelper" */;
 			buildPhases = (
+				3D8361FDE86458D4366D91E0 /* [CP] Check Pods Manifest.lock */,
 				5498C55C1FFE2D0C00DB1463 /* Sources */,
 				5498C55D1FFE2D0C00DB1463 /* Frameworks */,
 				5498C55E1FFE2D0C00DB1463 /* Resources */,
+				208D517714DC3383A890BF75 /* [CP] Embed Pods Frameworks */,
+				4DF280CE7B0527BA4CE43D62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +172,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		208D517714DC3383A890BF75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaiterHelper/Pods-WaiterHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaiterHelper/Pods-WaiterHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8361FDE86458D4366D91E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaiterHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF280CE7B0527BA4CE43D62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaiterHelper/Pods-WaiterHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5498C55C1FFE2D0C00DB1463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5498C5661FFE2D0C00DB1463 /* ViewController.swift in Sources */,
+				5498C5661FFE2D0C00DB1463 /* RootViewController.swift in Sources */,
 				5498C5641FFE2D0C00DB1463 /* AppDelegate.swift in Sources */,
 				5498C56C1FFE2D0C00DB1463 /* WaiterHelper.xcdatamodeld in Sources */,
+				54A041052014F3B300D5D36E /* TablesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +371,12 @@
 		};
 		5498C5761FFE2D0C00DB1463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84585A3CBBE3C3427C6E57E3 /* Pods-WaiterHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaiterHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SlavaStepanov.WaiterHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,10 +387,12 @@
 		};
 		5498C5771FFE2D0C00DB1463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491E066072CE3891CDCF2DDF /* Pods-WaiterHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaiterHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SlavaStepanov.WaiterHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
